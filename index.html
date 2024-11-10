@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Album</title>
     <style>
-        body {
-            background-color: rgb(110, 13, 167);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url(wal2.gif);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
+      body {
+        background-color: rgb(110, 13, 167);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url(wal2.gif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+      a {
+        text-decoration: none;
+      }
 
-        a {
-            text-decoration: none;
-        }
+      img {
+        border-radius: 20vh;
+        border-color: rgb(46, 46, 165);
+        padding: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
 
-        img {
-            border-radius: 20vh;
-            border-color: rgb(46, 46, 165);
-            padding: 20px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        img:hover {
-            transform: scale(1.1);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
-        }
+      img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <a href="gallery.html">
-        <img src="images/bg2.gif" alt="Gallery Thumbnail">
+      <img src="images/bg2.gif" alt="Gallery Thumbnail" />
     </a>
     <audio autoplay loop>
-        <source src="inspiring-cinematic-gradually-background-music-161952.mp3" type="audio/mp3">
-
+      <source
+        src="inspiring-cinematic-gradually-background-music-161952.mp3"
+        type="audio/mp3"
+      />
     </audio>
-</body>
-
+  </body>
 </html>
