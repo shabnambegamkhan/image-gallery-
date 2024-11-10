@@ -1,63 +1,65 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
     <link rel="stylesheet" href="gallery.css">
 </head>
+
 <body>
-    
+
     <audio id="background-music" src="teri-ye-adaa-romantic-song-206526.mp3"></audio>
-    
+
     <div class="gallery">
         <div class="thumbnail" onclick="openLightbox(1)">
-            <img src="kid3.webp" alt="models kid 1">
+            <img src="images/kid3.webp" alt="models kid 1">
             <h1>📸Model Kid</h1>
         </div>
 
-         <div class="thumbnail" onclick="openLightbox(2)">
-            <img src="a10.jpg" alt="Image 2">
+        <div class="thumbnail" onclick="openLightbox(2)">
+            <img src="images/a10.jpg" alt="Image 2">
             <h1>🐦Birds</h1>
         </div>
 
         <div class="thumbnail" onclick="openLightbox(3)">
-            <img src="wild.png" alt="Image 3">
+            <img src="images/wild.png" alt="Image 3">
             <h1>🐆Wild Animal</h1>
         </div>
 
-            <audio id="background-music" src="melody-bgm-tamil-love-indian-186668.mp3"></audio>
-            <div class="thumbnail" onclick="openLightbox(4, )">
-            <img src="sp1.webp" alt="Image 4">
+        <audio id="background-music" src="melody-bgm-tamil-love-indian-186668.mp3"></audio>
+        <div class="thumbnail" onclick="openLightbox(4, )">
+            <img src="images/s1.png" alt="Image 4">
             <h1>📷Photografy</h1>
 
         </div>
         <div class="thumbnail" onclick="openLightbox(5)">
-            <img src="sc1.webp" alt="Scenery">
+            <img src="images/sc1.webp" alt="Scenery">
             <h1>🌆Scenery</h1>
         </div>
 
         <div class="thumbnail" onclick="openLightbox(6)">
-            <img src="b1.webp" alt="beer 6">
+            <img src="images/b1.webp" alt="beer 6">
             <h1>🍻Branded Beer</h1>
-        </div> 
-        
-     </div> 
+        </div>
+
+    </div>
 
 
     <div id="lightbox" class="lightbox">
         <span class="close" onclick="closeLightbox()">&times;</span>
         <div class="lightbox-content-wrapper"></div>
         <div id="lightboxContent" class="lightbox-content"></div>
-            
+
         <div id="caption"></div>
-         <a class="prev" onclick="changeImage(-1)">&#10094;</a> 
-        <a class="next" onclick="changeImage(1)">&#10095;</a> 
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
     </div>
 
 
     <script src="gallery.js"></script>
-    
+
 </body>
+
 </html>

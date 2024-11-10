@@ -162,14 +162,14 @@ const imageSets = {
 
 function openLightbox(setNumber) {
     const lightboxContent = document.getElementById('lightboxContent');
-    
+
     // Purani images ko remove karta h.
-    lightboxContent.innerHTML = '';   
+    lightboxContent.innerHTML = '';
 
     const images = imageSets[setNumber];
     images.forEach(src => {
         const img = document.createElement('img');
-        img.src = src;
+        img.src = "images/" + src;
         lightboxContent.appendChild(img);
     });
 
